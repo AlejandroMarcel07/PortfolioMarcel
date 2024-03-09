@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.ComponenteMenu{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.ComponenteMenu h5, button, p{
+    margin: 0px;
+}
+
+.btnMenu{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    border-radius:20px;
+    height: 35px;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.BienvenidoMenu{
+    background-color: blueviolet;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.ComponenteSobreMi h5, p, button, h1, h3, h2{
+    margin: 0px;
+}
+
+.ComponenteSobreMi{
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    background-color: #FFFFFF25;
+    
+}
+
+/* Componete Sobre mi Informacion */
+
+.SobreMiInformacion{
+    margin: 20px;
+
+}
+
+.CirculoBlanco{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #dee2e2;
+}
+
+.FechaCirculo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FechaCirculo h5{
+    color: white;
+    font-family: system-ui;
+}
+
+.ComponenteSobreMi h1{
+    font-family: "Outfit", sans-serif;
+    color: rgb(252, 252, 252);
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.ComponenteSobreMi h2{
+    font-family: "Outfit", sans-serif;
+    color: rgb(236, 234, 234);
+    font-size: 30px;
+}
+
+.ComponenteSobreMi p{
+    font-family: "Outfit", sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 20px;
+}
+
+.ComponenteEmojiAvatar{
+    height: 100%;
+    width: 100%;
+}
+
+.ComponenteEmojiAvatar .ImgAvatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Componentes btn Ancor */
+.BtnAncor01{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.26);
+}
+.BtnAncor02{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* Componente Redes */
+.ComponenteRedes{
+    height: 85%;
+    width: 85%;
+}
+
+.ComponenteRedes h5, p, h1, a, button{
+    margin: 0px;}
+
+
+.ContendorIcoRedes{
+    display: flex;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+.ComponenteRedes h5{
+    font-family: "Outfit", sans-serif;
+    font-size: 23px;
+    color: black;
+}
+
+.ComponenteRedes p{
+    font-family: system-ui;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    margin-top: 25px;
+
+}
+
+.ContendorIcoRedes{
+    margin-top: 15px;
+}
+
+
+/* Componente Tecnologia */
+.ComponenteTecnologia{
+    height: 80%;
+    width: 90%;
+}
+
+.ComponenteTecnologia h5, h1, h2, p, button{
+    margin: 0px;
+}
+
+.ComponenteTecnologia h5{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.ContenedorTecnologia{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 6px;
+    background-color: rgba(231, 229, 229, 0.363);
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.185);
+    padding-left: 10px;
+}
+
+.ContenedorTecnologia img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+/* Componente titulo de proeyectos */
+.ComponenteTituloProyectos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ComponenteTituloProyectos h5, h1, button, a{
+    margin: 0px;
+}
+
+.ComponenteTituloProyectos h5{
+    font-family: "Outfit", sans-serif;
+    font-size: 23px;
+    color: black;
+}
+
+/* Componente Targeta Proyecto */
+.ContendorCardProyecto{
+    height: 95%;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.ContendorCardProyecto p, h5, h1, img, a, button{
+    margin: 0px;
+}
+
+.ContendorCardProyecto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px 15px 15px 15px ;
+    position: absolute;
+    transition:  0.5s;
+}
+
+.ContendorCardProyecto:hover img {
+    transform: scale(1.1); /* Escalar la imagen al 110% del tamaño original */
+}
+
+
+
+.CapaSombra{
+    background-color: white;
+    width: 50%;
+    height: 22%;
+    border-radius: 10px 10px 10px 10px; 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200%;
+    left: 4%;
+    transition: top 0.6s; 
+}
+
+
+
+ 
+.ContendorCardProyecto:hover .CapaSombra {
+    top: 75%; 
+} 
+
+
+.ContendorCardProyecto h5{
+    font-family: system-ui;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background-color: rgba(168, 43, 226, 0.473);
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.ContenedorIcoLink{
+    display:flex;
+    text-wrap: wrap;
+    gap: 7px;
+}
