@@ -1,22 +1,24 @@
-import React from 'react'
-import '../ComponentesBento/Estilo.css'
-import { Ancor02 } from './Ancor02'
+import React from "react";
+import "../ComponentesBento/Estilo.css";
+import { Ancor02 } from "./Ancor02";
 
-export function TargetaProyecto  ({ImgCard, TituloCard, IcoCard01, IcoCard02} )  {
+export function TargetaProyecto({ ImgCard, TituloCard, IcoCard01, IcoCard02 }) {
   return (
     <>
-    <div className='ContendorCardProyecto'>
+      <div className="ContendorCardProyecto">
         <img src={ImgCard} alt="" />
         <h5>{TituloCard}</h5>
-          <div className='CapaSombra'>
-    
-        <div className='ContenedorIcoLink'>
-
-            <Ancor02 IcoAncor={IcoCard01}/>
-            <Ancor02 IcoAncor={IcoCard02}/>
+        <p>
+          Este es un texto de prueba para ver como se ve responsive
+          
+        </p>
+        <div className="CapaSombra">
+          <div className="ContenedorIcoLink">
+            <Ancor02 IcoAncor={IcoCard01} />
+            <Ancor02 IcoAncor={IcoCard02} />
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
     </>
-  )
+  );
 }

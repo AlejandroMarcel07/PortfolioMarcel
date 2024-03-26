@@ -13,7 +13,7 @@ export function Redes  ()  {
   return (
     <>
     <div className='ComponenteRedes'>
-        <h5>¡Hagamos un buen trabajo <span style={{color:"blueViolet"}}>juntos!</span></h5>
+        <h5>¡Hagamos un buen trabajo <span style={{color:"#6B10EA"}}>juntos!</span></h5>
         <p>Contactame:</p>
         <div className='ContendorIcoRedes'>
         <Ancor01 icoAncor={IcoInstagram}/>

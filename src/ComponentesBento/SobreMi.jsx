@@ -4,11 +4,17 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export function SobreMi() {
   const [typeEffect] = useTypewriter({
-    words: ["Freelancer Developer"],
+    words: [ "front-end"],
     loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 40,
+    typeSpeed: 200,
+    deleteSpeed: 60,
   });
+
+  const spanStyle = {
+    textShadow: '2px 2px 2px black', // offsetX offsetY blurRadius color
+    color: "white",
+  };
+  
   return (
     <>
       <div className="ComponenteSobreMi">
@@ -18,18 +24,22 @@ export function SobreMi() {
             <div className="CirculoBlanco"></div>
           </div>
           <h1>
-            <span style={{ color: "yellow" }}>Marcel</span> Zúniga
+           
+            <span style={spanStyle} >¡Hola!</span>
+
+            <span style={{ color: "white" }}>  Yo soy Marcel</span>
           </h1>
+
           <h2>
-            {" "}
-            <span>{typeEffect}</span>
+          Desarrollador{" "}
+            <span style={{ color: "rgb(236, 234, 234)" }}>{typeEffect}</span>
             <span>
               <Cursor cursorColor="white" />
             </span>
           </h2>
           <p>
-           <span style={{color:"yellow"}}> En búsqueda de oportunidades </span>para mejorar y crecer profesionalmente.
-            Siempre estoy dispuesto a enfrentar nuevos desafíos.⚔️
+            Apasionando por el mundo de la tecnologia y en busca de oportunidades.
+        
           </p>
         </div>
       </div>

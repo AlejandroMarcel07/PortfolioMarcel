@@ -1,300 +1,520 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-.ComponenteMenu{
-    height: 80%;
-    width: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Dhurjati&family=Eczar:wght@400..800&family=Madimi+One&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Dhurjati&family=Eczar:wght@400..800&family=Madimi+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.ComponenteMenu {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
-.ComponenteMenu h5, button, p{
-    margin: 0px;
-}
-
-.btnMenu{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    font-family: "Outfit", sans-serif;
-    border-radius:20px;
-    height: 35px;
-    color: white;
-    padding: 10px;
+.ComponenteMenu h5,
+button,
+p {
+  margin: 0px;
 }
 
-
-
-.BienvenidoMenu{
-    background-color: blueviolet;
-    font-size: 14px;
-    font-family: "Outfit", sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 10px;
-    border-radius: 20px 20px 0px 20px;
+.btnMenu {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  border-radius: 20px;
+  height: 35px;
+  color: white;
+  padding: 10px;
 }
 
-.ComponenteSobreMi h5, p, button, h1, h3, h2{
-    margin: 0px;
+.BienvenidoMenu {
+  background-color: #6b10ea;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px 10px 0px 10px;
 }
 
-.ComponenteSobreMi{
-    height: 90%;
-    width: 90%;
-    border-radius: 15px;
-    border-top: 2px solid #FFFFFF75;
-    border-left: 2px solid #FFFFFF75;
-    background-color: #FFFFFF25;
-    
+.ComponenteSobreMi h5,
+p,
+button,
+h1,
+h3,
+h2 {
+  margin: 0px;
+}
+
+.ComponenteSobreMi {
+  height: 94%;
+  width: 94%;
+  border-radius: 15px;
+  border-top: 2px solid #ffffff75;
+  border-left: 2px solid #ffffff75;
+  background-color: #ffffff07;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.199);
 }
 
 /* Componete Sobre mi Informacion */
 
-.SobreMiInformacion{
-    margin: 20px;
-
+.SobreMiInformacion {
+  margin: 20px;
 }
 
-.CirculoBlanco{
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    background-color: #dee2e2;
+.CirculoBlanco {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #dee2e2;
 }
 
-.FechaCirculo{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.FechaCirculo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.FechaCirculo h5{
-    color: white;
-    font-family: system-ui;
+.FechaCirculo h5 {
+  color: white;
+  font-family: system-ui;
 }
 
-.ComponenteSobreMi h1{
-    font-family: "Outfit", sans-serif;
-    color: rgb(252, 252, 252);
-    font-size: 45px;
-    margin-top: 15px;
+.ComponenteSobreMi h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 20px;
 }
 
-.ComponenteSobreMi h2{
-    font-family: "Outfit", sans-serif;
-    color: rgb(236, 234, 234);
-    font-size: 30px;
+.ComponenteSobreMi h2 {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 5px;
 }
 
-.ComponenteSobreMi p{
-    font-family: "Outfit", sans-serif;
-    font-size: 17px;
-    color: rgba(255, 255, 255, 0.89);
-    margin-top: 20px;
+.ComponenteSobreMi p {
+  font-family: "Outfit", sans-serif;
+  font-size: 17px;
+  color: rgb(236, 234, 234);
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 200;
 }
 
-.ComponenteEmojiAvatar{
-    height: 100%;
-    width: 100%;
+.ComponenteEmojiAvatar {
+  height: 100%;
+  width: 100%;
 }
 
-.ComponenteEmojiAvatar .ImgAvatar{
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    object-fit: cover;
-    object-position: center;
+.ComponenteEmojiAvatar .ImgAvatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ContenedorEmojiAvatar2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.ContenedorEmojiAvatar2 .IMG-AVATAR-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  background-color: #6b10ea;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.349));
 }
 
 /* Componentes btn Ancor */
-.BtnAncor01{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 7px;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-right: 10px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.26);
+.BtnAncor01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.26);
 }
-.BtnAncor02{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 9px;
-    font-size: 13px;
-    font-family: "Outfit", sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+.BtnAncor02 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
-
 
 /* Componente Redes */
-.ComponenteRedes{
-    height: 85%;
-    width: 85%;
+.ComponenteRedes {
+  height: 85%;
+  width: 85%;
 }
 
-.ComponenteRedes h5, p, h1, a, button{
-    margin: 0px;}
-
-
-.ContendorIcoRedes{
-    display: flex;
-    justify-content: left;
-    text-wrap: wrap;
+.ComponenteRedes h5,
+p,
+h1,
+a,
+button {
+  margin: 0px;
 }
 
-.ComponenteRedes h5{
-    font-family: "Outfit", sans-serif;
-    font-size: 23px;
-    color: black;
+.ContendorIcoRedes {
+  display: flex;
+  justify-content: left;
+  text-wrap: wrap;
 }
 
-.ComponenteRedes p{
-    font-family: system-ui;
-    color: black;
-    font-family: "Outfit", sans-serif;
-    margin-top: 25px;
-
+.ComponenteRedes h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  color: black;
 }
 
-.ContendorIcoRedes{
-    margin-top: 15px;
+.ComponenteRedes p {
+  font-family: system-ui;
+  color: black;
+  font-family: "Outfit", sans-serif;
+  margin-top: 25px;
 }
 
+.ContendorIcoRedes {
+  margin-top: 15px;
+}
 
 /* Componente Tecnologia */
-.ComponenteTecnologia{
-    height: 80%;
-    width: 90%;
+.ComponenteTecnologia {
+  height: 80%;
+  width: 90%;
 }
 
-.ComponenteTecnologia h5, h1, h2, p, button{
-    margin: 0px;
+.ComponenteTecnologia h5,
+h1,
+h2,
+p,
+button {
+  margin: 0px;
 }
 
-.ComponenteTecnologia h5{
-    font-family: "Outfit", sans-serif;
-    font-size: 18px;
+.ComponenteTecnologia h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
 }
 
-.ContenedorTecnologia{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 15px;
-    margin-top: 6px;
-    background-color: rgba(231, 229, 229, 0.363);
-    height: 50px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.185);
-    padding-left: 10px;
+.ContenedorTecnologia {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+  margin-top: 6px;
+  background-color: rgba(231, 229, 229, 0.363);
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.185);
+  padding-left: 10px;
 }
 
-.ContenedorTecnologia img{
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
+.ContenedorTecnologia img {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
 }
 
 /* Componente titulo de proeyectos */
-.ComponenteTituloProyectos{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.ComponenteTituloProyectos {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.ComponenteTituloProyectos h5, h1, button, a{
-    margin: 0px;
+.ComponenteTituloProyectos h5,
+h1,
+button,
+a {
+  margin: 0px;
 }
 
-.ComponenteTituloProyectos h5{
-    font-family: "Outfit", sans-serif;
-    font-size: 23px;
-    color: black;
+.ComponenteTituloProyectos h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  font-weight: 300;
+  background-color: white;
 }
 
 /* Componente Targeta Proyecto */
-.ContendorCardProyecto{
-    height: 95%;
-    width: 95%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
+.ContendorCardProyecto {
+  height: 95%;
+  width: 95%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
-.ContendorCardProyecto p, h5, h1, img, a, button{
-    margin: 0px;
+.ContendorCardProyecto p,
+h5,
+h1,
+img,
+a,
+button {
+  margin: 0px;
 }
 
-.ContendorCardProyecto img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 15px 15px 15px 15px ;
-    position: absolute;
-    transition:  0.5s;
+.ContendorCardProyecto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px 15px 15px 15px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
 
 .ContendorCardProyecto:hover img {
-    transform: scale(1.1); /* Escalar la imagen al 110% del tamaño original */
+  transform: scale(1.4);
+  filter: blur(3px);
+  /* rotate: 10deg; */
 }
 
-
-
-.CapaSombra{
-    background-color: white;
-    width: 50%;
-    height: 22%;
-    border-radius: 10px 10px 10px 10px; 
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 200%;
-    left: 4%;
-    transition: top 0.6s; 
+.CapaSombra {
+  background-color: white;
+  width: 50%;
+  height: 22%;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 200%;
+  left: 7%;
+  transition: top 0.6s;
 }
 
-
-
- 
 .ContendorCardProyecto:hover .CapaSombra {
-    top: 75%; 
-} 
-
-
-.ContendorCardProyecto h5{
-    font-family: system-ui;
-    color: white;
-    font-family: "Outfit", sans-serif;
-    font-size: 14px;
-    margin-top: 6px;
-    margin-left: 6px;
-    background-color: rgba(168, 43, 226, 0.473);
-    padding: 5px;
-    border-radius: 10px;
-    position: absolute;
+  top: 73%;
 }
 
-.ContenedorIcoLink{
-    display:flex;
-    text-wrap: wrap;
-    gap: 7px;
+.ContendorCardProyecto p {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 80%;
+  padding: 5px;
+  border-radius: 10px;
+  top: 200%;
+  position: absolute;
+  transition: top 0.6s;
+}
+
+.ContendorCardProyecto:hover p {
+  top: 0%;
+}
+
+.ContendorCardProyecto h5 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.ContendorCardProyecto:hover h5 {
+  font-size: 20px;
+}
+
+.ContenedorIcoLink {
+  display: flex;
+  text-wrap: wrap;
+  gap: 7px;
+}
+
+/* Componente Informacion */
+.ComponenteInformacion {
+  height: 85%;
+  width: 80%;
+}
+
+.ComponenteInformacion h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  color: black;
+}
+.ComponenteInformacion p {
+  color: black;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+}
+
+/* Componente Edad */
+.ComponenteEdad {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.ComponenteEdad h5,
+p,
+button,
+a {
+  margin: 0px;
+}
+.ContenedorInformacionEdad h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  color: white;
+}
+.ContenedorInformacionEdad p {
+  color: rgb(207, 205, 205);
+  font-family: "Outfit", sans-serif;
+  margin-top: 5px;
+}
+
+/* Componente universidad */
+.ComponenteUniversidad {
+  height: 80%;
+  width: 80%;
+}
+
+.ComponenteUniversidad h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 23px;
+  color: black;
+  margin-top: 10px;
+}
+
+.ComponenteUniversidad p {
+  color: black;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+}
+
+.ComponenteUniversidad .FiguraLibro {
+  color: rgb(189, 185, 185);
+  font-size: 70px;
+}
+
+/* Componente Formulario */
+.ComponenteFormulario {
+  height: 85%;
+  width: 90%;
+}
+
+.ContenedorFormulario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FormularioIzquierdo {
+  height: 100%;
+  width: 50%;
+}
+
+.FormularioDerecho {
+  height: 100%;
+  width: 50%;
+  
+}
+
+.ComponenteFormulario .TituloFormulario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ComponenteFormulario h5 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+}
+.ComponenteFormulario label {
+  color: black;
+  font-family: "Outfit", sans-serif;
+}
+
+.ComponenteFormulario .ImputComentario {
+  background-color: rgba(238, 234, 234, 0.473);
+  border: none;
+  outline: none;
+  padding: 3px 10px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  font-family: "Outfit", sans-serif;
+}
+
+.ComponenteFormulario .ImputMensaje {
+  resize: none;
+  background-color: rgba(238, 234, 234, 0.473);
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  height: 80px;
+  width: 150px;
+  margin-top: 5px;
+  font-family: "Outfit", sans-serif;
+}
+
+.ContenedorBtnSend {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+
+
+
+.ComponenteFormulario .BtnSend {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.NombreFormulario {
+  display: flex;
+  flex-direction: column; /* Cambiar la dirección a columna */
+  align-items: start;
+}
+
+.MensajeFormulario {
+  display: flex;
+  flex-direction: column; /* Cambiar la dirección a columna */
+  align-items: start;
+  margin-top: 5px;
 }
