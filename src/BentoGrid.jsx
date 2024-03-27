@@ -22,6 +22,7 @@ const FiguraPastel = <FaCakeCandles style={{color:"#9553f1", fontSize:"45px", ma
 const FiguraPlace = <MdPlace style={{color:"#9553f1", fontSize:"45px", marginTop:"5px"}} />
 
 
+
 import { Ancor02 } from "./ComponentesBento/Ancor02";
 const IcoGithub02 = (
   <FaGithub style={{ marginRight: "7px", color: "white", fontSize: "20px" }} />
@@ -148,7 +149,7 @@ export function BentoGrid() {
         
         </div>
         <div className="COMP13 Justifica-centro border-radius">
-          <Formulario/>
+          <Formulario />
         </div>
         <div className="COMP14 Justifica-centro border-radius">
           <Informacion

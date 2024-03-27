@@ -429,92 +429,115 @@ a {
   width: 90%;
 }
 
-.ContenedorFormulario {
+
+.ComponenteFormulario form{
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-}
 
-.FormularioIzquierdo {
+}
+.ComponenteFormulario .ContenedorIzquierdo{
   height: 100%;
   width: 50%;
+  padding-right: 0px;
+  box-sizing: border-box;
 }
 
-.FormularioDerecho {
+.ComponenteFormulario .ContenedorDerecho{
   height: 100%;
   width: 50%;
-  
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
-.ComponenteFormulario .TituloFormulario {
-  display: flex;
-  justify-content: space-between;
-}
 
 .ComponenteFormulario h5 {
   font-family: "Outfit", sans-serif;
-  font-size: 18px;
+  font-size: 23px;
   color: black;
-  margin-bottom: 5px;
-}
-.ComponenteFormulario label {
-  color: black;
-  font-family: "Outfit", sans-serif;
 }
 
-.ComponenteFormulario .ImputComentario {
-  background-color: rgba(238, 234, 234, 0.473);
-  border: none;
-  outline: none;
-  padding: 3px 10px;
-  border-radius: 5px;
-  width: 150px;
-  height: 30px;
-  margin-top: 5px;
+.ComponenteFormulario p{
+  color: black;
   font-family: "Outfit", sans-serif;
+  margin-top: 5px;
+}
+
+
+.ComponenteFormulario .ImputComentario {
+
+  border: 1px solid  #6b10ea9a ;
+  outline: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.ImputComentario::placeholder{
+  color:#6b10ea9a
 }
 
 .ComponenteFormulario .ImputMensaje {
   resize: none;
-  background-color: rgba(238, 234, 234, 0.473);
-  border: none;
+  margin-top: 10px;
+  border: 1px solid  #6b10ea9a ;
   outline: none;
-  padding: 10px 10px;
   border-radius: 5px;
-  height: 80px;
-  width: 150px;
-  margin-top: 5px;
+  height: 58px;
+  width: 100%;
   font-family: "Outfit", sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
 }
-
-.ContenedorBtnSend {
-  display: flex;
-  justify-content: right;
-  margin-top: 20px;
+.ImputMensaje::placeholder{
+  color:#6b10ea9a
 }
-
 
 
 
 .ComponenteFormulario .BtnSend {
-  background-color: black;
+  background-color: #6b10ea;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   font-family: "Outfit", sans-serif;
-  height: 30px;
-  width: 70px;
+  height: 40px;
+  width:100%;
   cursor: pointer;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
-.NombreFormulario {
-  display: flex;
-  flex-direction: column; /* Cambiar la dirección a columna */
-  align-items: start;
+.ComponenteFormulario .BtnSend:hover{
+  background-color: #15f700;
 }
 
-.MensajeFormulario {
-  display: flex;
-  flex-direction: column; /* Cambiar la dirección a columna */
-  align-items: start;
-  margin-top: 5px;
+
+.ContenedorHora{
+  height: 130px;
+  width: 100%;
+  background-color: #6b10ea;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
+.ContenedorHora h5{
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.ContenedorHora p{
+  font-family: "Outfit", sans-serif;
+  color: rgb(207, 205, 205);
+}
+
+

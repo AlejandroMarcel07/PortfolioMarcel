@@ -1,7 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../ComponentesBento/Estilo.css";
-import { SiGmail } from "react-icons/si";
+
+import { BsFillSendFill } from "react-icons/bs";
+const IcoSend = 
+<BsFillSendFill style={{fontSize:"20px"}}/>
+;
 
 export function Formulario() {
   const form = useRef();
@@ -37,36 +41,36 @@ export function Formulario() {
     <>
       <div className="ComponenteFormulario">
         <form ref={form} onSubmit={sendEmail}>
-          <div className="ContenedorFormulario">
-            <div className="FormularioIzquierdo">
-              <div className="TituloFormulario">
-                <h5>Envia un comentario</h5>
-              </div>
+          <div className="ContenedorIzquierdo">
 
-              <div className="NombreFormulario">
-                <input
-                  className="ImputComentario"
-                  type="text"
-                  name="user_name"
-                  placeholder="Ingresa tu nombre"
-                />
-              </div>
-              <div className="MensajeFormulario">
-                <textarea
-                  className="ImputMensaje"
-                  name="message"
-                  placeholder="Ingresa un mensaje"
-                />
-              </div>
+          <h5>¡Tu opinión es importante! </h5>
+          <input
+            className="ImputComentario"
+            type="text"
+            name="user_name"
+            placeholder="Ingresa tu nombre"
+          />
+          <textarea
+            className="ImputMensaje"
+            name="message"
+            placeholder="Ingresa un mensaje"
+          />
+          
+          </div>
+          <div className="ContenedorDerecho">
+            <div className="ContenedorHora">
+                <h5>
+                  8:24 PM
+                </h5>
+                <p>
+                 Hoy es martes 26 de Marzo
+                </p>
             </div>
-            <div className="FormularioDerecho">
-
             
-              <div className="ContenedorBtnSend">
-                <input className="BtnSend" type="submit" value="Enviar" />
-              </div>
-              
-            </div>
+          <button className="BtnSend" type="submit" >
+            Enviar mensaje
+            {IcoSend}
+          </button>
           </div>
         </form>
       </div>
